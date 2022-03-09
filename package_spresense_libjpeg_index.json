@@ -16,12 +16,12 @@
             }
           ],
           "category": "SPRESENSE",
-          "checksum": "SHA-256:6e9ab2bd5a32b39da934c84af3a49538b37d73b67d0dbe11f9ac23160921cd16",
+          "checksum": "SHA-256:fefc161f9de233277e31d8893ca5662f315fc36c08896abaaaf6b3b8090661bb",
           "help": {
             "online": "https://developer.sony.com/develop/spresense/developer-tools/get-started-using-arduino-ide/set-up-the-arduino-ide"
           },
           "name": "Spresense libjpeg Board",
-          "size": 951678,
+          "size": 951689,
           "toolsDependencies": [
             {
               "name": "spresense-sdk",
@@ -104,25 +104,25 @@
           "name": "spresense-sdk",
           "systems": [
             {
-              "archiveFileName": "spresense-sdk-v1.0.1.tar.gz",
-              "checksum": "SHA-256:58bc525a9fe5b572fbe132cff8ba33b9ce0bc0a2053d2bfe3fa974435d42a572",
+              "archiveFileName": "spresense-sdk-v2.4.1_libjpeg.tar.gz",
+              "checksum": "SHA-256:8ee355674c9a3f2c6af64d28b6c2d6c3ec3d11a9bde92bc7a2904ca39cdc7dd3",
               "host": "i686-mingw32",
-              "size": 9431242,
+              "size": 21953147,
               "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
             },
             {
               "_comment": "Allow x64-Linux build",
-              "archiveFileName": "spresense-sdk-v1.0.1.tar.gz",
-              "checksum": "SHA-256:58bc525a9fe5b572fbe132cff8ba33b9ce0bc0a2053d2bfe3fa974435d42a572",
+              "archiveFileName": "spresense-sdk-v2.4.1_libjpeg.tar.gz",
+              "checksum": "SHA-256:8ee355674c9a3f2c6af64d28b6c2d6c3ec3d11a9bde92bc7a2904ca39cdc7dd3",
               "host": "x86_64-pc-linux-gnu",
-              "size": 9431242,
+              "size": 21953147,
               "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
             },
             {
-              "archiveFileName": "spresense-sdk-v1.0.1.tar.gz",
-              "checksum": "SHA-256:58bc525a9fe5b572fbe132cff8ba33b9ce0bc0a2053d2bfe3fa974435d42a572",
+              "archiveFileName": "spresense-sdk-v2.4.1_libjpeg.tar.gz",
+              "checksum": "SHA-256:8ee355674c9a3f2c6af64d28b6c2d6c3ec3d11a9bde92bc7a2904ca39cdc7dd3",
               "host": "i386-apple-darwin11",
-              "size": 9431242,
+              "size": 21953147,
               "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
             }
           ],
