@@ -136,7 +136,7 @@
               "checksum": "SHA-256:dbd19e43d3ad076da201f577e947ffe5b1ca0324285f3a086afb60760ab89b3c",
               "host": "i686-mingw32",
               "size": 59772449,
-              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/pacakges/spresense-tools-v2.4.1_libjpeg.tar.gz"
+              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-tools-v2.4.1_libjpeg.tar.gz"
             },
             {
               "_comment": "Allow x64-Linux build",
