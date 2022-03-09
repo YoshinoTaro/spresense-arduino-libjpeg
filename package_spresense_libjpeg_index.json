@@ -1,0 +1,163 @@
+{
+  "packages": [
+    {
+      "help": {
+        "online": "https://developer.sony.com/develop/spresense/"
+      },
+      "maintainer": "Spresense libjpeg Community",
+      "name": "SPRESENSE_libjpeg",
+      "platforms": [
+        {
+          "architecture": "spresense",
+          "archiveFileName": "spresense-v2.4.1_libjpeg.tar.gz",
+          "boards": [
+            {
+              "name": "Generic Spresense Module"
+            }
+          ],
+          "category": "SPRESENSE",
+          "checksum": "SHA-256:6e9ab2bd5a32b39da934c84af3a49538b37d73b67d0dbe11f9ac23160921cd16",
+          "help": {
+            "online": "https://developer.sony.com/develop/spresense/developer-tools/get-started-using-arduino-ide/set-up-the-arduino-ide"
+          },
+          "name": "Spresense libjpeg Board",
+          "size": 951678,
+          "toolsDependencies": [
+            {
+              "name": "spresense-sdk",
+              "packager": "SPRESENSE_libjpeg",
+              "version": "2.4.1"
+            },
+            {
+              "name": "spresense-tools",
+              "packager": "SPRESENSE_libjpeg",
+              "version": "2.4.1"
+            },
+            {
+              "name": "gcc-arm-none-eabi",
+              "packager": "SPRESENSE",
+              "version": "5.4.1"
+            }
+          ],
+          "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-v2.4.1_libjpeg.tar.gz",
+          "version": "2.4.1"
+        }
+      ],
+      "tools": [
+        {
+          "name": "gcc-arm-none-eabi",
+          "systems": [
+            {
+              "archiveFileName": "gcc-arm-none-eabi-5.4.1-windows.tar.gz",
+              "checksum": "SHA-256:23319dfa1202c11aee2594ae2fc134801d74eb8718f956d2a25f2b092cf0f32f",
+              "host": "i686-mingw32",
+              "size": "120313262",
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/generic/gcc-arm-none-eabi-5.4.1-windows.tar.gz"
+            },
+            {
+              "_comment": "Allow x64-Linux build",
+              "archiveFileName": "gcc-arm-none-eabi-5.4.1-linux.tar.gz",
+              "checksum": "SHA-256:6ea95c393681b9ec521548f62bf2e20fef9b52501f56e0725990b24f7446d0ef",
+              "host": "x86_64-pc-linux-gnu",
+              "size": "106636817",
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/generic/gcc-arm-none-eabi-5.4.1-linux.tar.gz"
+            },
+            {
+              "archiveFileName": "gcc-arm-none-eabi-5.4.1-macosx.tar.gz",
+              "checksum": "SHA-256:94a47fae8aa0c1380582be3f6011e5c7923c2110154ad74739367e6884eef7ec",
+              "host": "i386-apple-darwin11",
+              "size": "123352513",
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/generic/gcc-arm-none-eabi-5.4.1-macosx.tar.gz"
+            }
+          ],
+          "version": "5.4.1"
+        },
+        {
+          "name": "gcc-arm-none-eabi",
+          "systems": [
+            {
+              "archiveFileName": "gcc-arm-none-eabi-9.2.1-windows.tar.gz",
+              "checksum": "SHA-256:22d33a4e337d44efd2c62eaaec0ca19eabeb0f314910a5a78a3289f7d4bde3ab",
+              "host": "i686-mingw32",
+              "size": "146711545",
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/generic/gcc-arm-none-eabi-9.2.1-windows.tar.gz"
+            },
+            {
+              "_comment": "Allow x64-Linux build",
+              "archiveFileName": "gcc-arm-none-eabi-9.2.1-linux.tar.gz",
+              "checksum": "SHA-256:8a380091315485cfad759e1f8a9c7adc019a90213ee814fc9de90af49853f2f5",
+              "host": "x86_64-pc-linux-gnu",
+              "size": "148024502",
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/generic/gcc-arm-none-eabi-9.2.1-linux.tar.gz"
+            },
+            {
+              "archiveFileName": "gcc-arm-none-eabi-9.2.1-macosx.tar.gz",
+              "checksum": "SHA-256:7d78dc50ba2163389476bdfd65cc241932f8d6376766094c48be4f3f3dd32c1b",
+              "host": "i386-apple-darwin11",
+              "size": "148926695",
+              "url": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/download/generic/gcc-arm-none-eabi-9.2.1-macosx.tar.gz"
+            }
+          ],
+          "version": "9.2.1"
+        },
+        {
+          "name": "spresense-sdk",
+          "systems": [
+            {
+              "archiveFileName": "spresense-sdk-v1.0.0.tar.gz",
+              "checksum": "SHA-256:8e4037118c6f583cf25007e08a043478219307a5c94a77deebbfda975816fc26",
+              "host": "i686-mingw32",
+              "size": "9425092",
+              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
+            },
+            {
+              "_comment": "Allow x64-Linux build",
+              "archiveFileName": "spresense-sdk-v1.0.0.tar.gz",
+              "checksum": "SHA-256:8e4037118c6f583cf25007e08a043478219307a5c94a77deebbfda975816fc26",
+              "host": "x86_64-pc-linux-gnu",
+              "size": "9425092",
+              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
+            },
+            {
+              "archiveFileName": "spresense-sdk-v1.0.0.tar.gz",
+              "checksum": "SHA-256:8e4037118c6f583cf25007e08a043478219307a5c94a77deebbfda975816fc26",
+              "host": "i386-apple-darwin11",
+              "size": "9425092",
+              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
+            }
+          ],
+          "version": "1.0.0"
+        },
+        {
+          "name": "spresense-sdk",
+          "systems": [
+            {
+              "archiveFileName": "spresense-sdk-v1.0.1.tar.gz",
+              "checksum": "SHA-256:58bc525a9fe5b572fbe132cff8ba33b9ce0bc0a2053d2bfe3fa974435d42a572",
+              "host": "i686-mingw32",
+              "size": 9431242,
+              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
+            },
+            {
+              "_comment": "Allow x64-Linux build",
+              "archiveFileName": "spresense-sdk-v1.0.1.tar.gz",
+              "checksum": "SHA-256:58bc525a9fe5b572fbe132cff8ba33b9ce0bc0a2053d2bfe3fa974435d42a572",
+              "host": "x86_64-pc-linux-gnu",
+              "size": 9431242,
+              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
+            },
+            {
+              "archiveFileName": "spresense-sdk-v1.0.1.tar.gz",
+              "checksum": "SHA-256:58bc525a9fe5b572fbe132cff8ba33b9ce0bc0a2053d2bfe3fa974435d42a572",
+              "host": "i386-apple-darwin11",
+              "size": 9431242,
+              "url": "https://github.com/YoshinoTaro/spresense-arduino-libjpeg/raw/main/staging/packages/spresense-sdk-v2.4.1_libjpeg.tar.gz"
+            }
+          ],
+          "version": "2.4.1"
+        }
+      ],
+      "websiteURL": "https://github.com/sonydevworld/spresense-arduino-compatible/releases/"
+    }
+  ]
+}
