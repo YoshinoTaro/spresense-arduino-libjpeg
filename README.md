@@ -4,7 +4,7 @@ How to install Spresense Arduino Package with libjpeg. Please note that this pac
 
 ## Step 1.
 Open "Preferences" on Arduino IDE, and set the below URL on "Additional Boards Manager URLs"
-https://raw.githubusercontent.com/YoshinoTaro/spresense-arduino-libjpeg/main/package_spresense_tensorflow_index.json
+https://raw.githubusercontent.com/YoshinoTaro/spresense-arduino-libjpeg/main/package_spresense_libjpeg_index.json
 
 <img src="https://user-images.githubusercontent.com/18510684/153807548-c0450aba-40bf-47c4-b30e-3c618f4f1f94.png" width="400"/>
 
