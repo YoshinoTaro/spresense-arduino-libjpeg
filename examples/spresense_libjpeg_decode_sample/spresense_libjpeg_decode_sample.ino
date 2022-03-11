@@ -65,7 +65,7 @@ void setup() {
   myFile.write(outbuf, width*height*3);
   myFile.close();
   free(outbuf);
-  Serial.println("the clipped image saved as out.rgb");
+  Serial.println("the image saved as out.rgb");
   Serial.println("Please change the filename to out.data to visualize by GIMP");
 
   // end the camera to reset the format and free the image buffer
