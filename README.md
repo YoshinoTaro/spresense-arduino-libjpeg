@@ -25,7 +25,8 @@ Compile and run the examples on this github repository.
 |example name | application |
 | ---- | ---- |
 |spresense_libjpeg_example | simple jpeg file decode example|
-|spresense_libjpeg_decode_example | decode jpeg data captured by spresense camera to RGB data |
-|spresense_libjpeg_decode_clip_example | partly decode jpeg data captured by spresense camera to RGB data |
-|spresense_encode_example | encode RGB565 data captured by spresense camera to jpeg data |
+|spresense_libjpeg_decode_example | decode a jpeg data captured by spresense camera to RGB data |
+|spresense_libjpeg_decode_clip_example | decode a jpeg data captured by spresense camera to a RGB data file |
+|spresense_libjpeg_decode_to_file_example | encode a RGB565 data captured by spresense camera to a jpeg data |
+|spresense_libjpeg_encode_example | encode a RGB565 data captured by spresense camera to a jpeg data |
 
